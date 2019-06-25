@@ -62,9 +62,9 @@ _Setting BRIDGE_MOCK to true makes it so that the service won’t try to contact
 On the resulting screen, click the URL under the Location column for the entry named "rayner-webui".
 
 ### Send a Sample Request
-* In order to get sample data into the web UI, requests must be sent to the backend service. This can easily be accomplished using “curl” from the terminal. In the example below, $WEB_UI_ROUTE is the full URL (including http://)  to the *rayner-service* route.
+* In order to get sample data into the web UI, requests must be sent to the backend service. This can easily be accomplished using “curl” from the terminal. In the example below, $SERVICE_ROUTE is the full URL (including http://) to the *rayner-service* route.
 
-`curl -X PUT -H "Content-Type: application/json" -d '{"hex": "00ff00"}' $WEB_UI_ROUTE/light/`
+`curl -X PUT -H "Content-Type: application/json" -d '{"hex": "00ff00"}' $SERVICE_ROUTE/light/`
 
 _Note that the trailing `/` on the URL is required._
 
