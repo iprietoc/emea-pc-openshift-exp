@@ -2,8 +2,8 @@
 
 ## Lab Details
 
-Cluster: http://console-openshift-console.apps.cluster-2505.2505.events.opentlc.com/
-User Selection: https://etherpad.net/p/Openshift_experience
+* Cluster: http://console-openshift-console.apps.cluster-2505.2505.events.opentlc.com/
+* User Selection: https://etherpad.net/p/Openshift_experience
 
 ## Lab
 
